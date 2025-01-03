@@ -1,0 +1,36 @@
+body {
+    user-select: none;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#cookie {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid #c49b6e;
+    cursor: pointer;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cookie img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#score {
+    font-size: 2rem;
+    color: #333;
+}
